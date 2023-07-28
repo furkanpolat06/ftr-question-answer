@@ -27,7 +27,7 @@ h1 {
     max-width: 40rem;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.288);
 }
 
 .question {
@@ -49,6 +49,11 @@ h1 {
 .answer img {
     width: 8rem;
     height: 10rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+}
+.answer img:hover{
+    transform: scale(1.05);
 }
 
 .button {
@@ -71,7 +76,9 @@ h1 {
     font-weight: 800;
     transform: scale(1.1);
 }
-
+.button:active{
+    background-color: rgb(255, 0, 212);
+}
 
 
 
