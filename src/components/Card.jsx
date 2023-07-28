@@ -18,7 +18,7 @@ const Card = ({ question }) => {
          ⇅
         </button>
       </div>
-      {isVisible && <div className="answer">{question.answer} <img src={question.img} alt="" /> </div>}
+      {isVisible && <div className="answer">{question.answer} <img src={question.img} alt="" /></div>}
     </div>
   );
 };
